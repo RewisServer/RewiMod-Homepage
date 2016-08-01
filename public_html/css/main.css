@@ -26,10 +26,10 @@ body
 #header
 {
     text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
 }
 
 .centered
@@ -46,4 +46,15 @@ body
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 5%;
+}
+
+hr
+{
+    border-color: #888888;
+}
+
+.smallhr
+{
+    max-width: 10%;
 }
