@@ -26,7 +26,10 @@ body
 #header
 {
     text-align: center;
-    margin: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
 }
 
 .centered
