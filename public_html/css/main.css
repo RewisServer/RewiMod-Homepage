@@ -1,8 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+@import url('http://fonts.googleapis.com/css?family=Source%20Sans%20Pro');
+
 #navbar-top
 {
-    background-color: #202020;
     border-radius: 0px;
     background: #202020;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #navbar-top > div > div > ul > li > a
@@ -29,4 +32,15 @@ body
 .centered
 {
     text-align: center;
+}
+
+.content-block
+{
+    background-color: #202020;
+    color: #888888;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
