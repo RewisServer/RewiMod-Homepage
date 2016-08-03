@@ -6,16 +6,33 @@
     border-radius: 0px;
     background: #202020;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    min-height: 70px;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
-#navbar-top > div > div > ul > li > a
+#navbar-top > div
+{
+    text-align: center;
+}
+
+#navbar-top > div > span
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#navbar-top > div > span > a
 {
     color: #888888;
 }
 
-#navbar-top > div > div > ul > li > a:hover
+#navbar-top > div > span > a:hover
 {
-    background-color: #101010;
+    background-color: #202020;
+    text-decoration: none;
+    color: #999999;
 }
 
 body
@@ -72,4 +89,9 @@ h1, h2, h3, h4, h5, h6
     border-style: none;
     height: 50px;
     border-radius: 3px;
+}
+
+.download:hover
+{
+    background-color: #D54883;
 }
