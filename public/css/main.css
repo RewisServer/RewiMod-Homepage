@@ -67,5 +67,9 @@ h1, h2, h3, h4, h5, h6
 
 .download
 {
-
+    background-color: #82244B;
+    color: #202020;
+    border-style: none;
+    height: 50px;
+    border-radius: 3px;
 }
