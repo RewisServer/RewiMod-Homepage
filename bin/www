@@ -88,3 +88,8 @@ function onListening() {
     : 'port ' + addr.port;
   console.log('Listening on ' + bind);
 }
+
+process.on("SIGINT", function () {
+    console.log('Shut Down by User');
+    process.exit(0);
+});
