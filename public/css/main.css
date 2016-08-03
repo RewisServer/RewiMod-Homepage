@@ -40,19 +40,19 @@ body
     background-color: #171717;
 }
 
-body:link
+a:link
 {
     color: #82244B;
     text-decoration: none;
 }
 
-body:hover
+a:hover
 {
     color: #D54883;
     text-decoration: none;
 }
 
-body:visited
+a:visited
 {
     color: #82244B;
     text-decoration: none;
@@ -125,4 +125,10 @@ h1, h2, h3, h4, h5, h6
     border-color: #171717;
     border-radius: 3px;
     border-width: 1px;
+}
+
+.table > tbody > tr > td
+{
+    border-top: 1px solid #171717;
+    text-align: left;
 }
