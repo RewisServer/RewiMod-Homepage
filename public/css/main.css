@@ -40,6 +40,24 @@ body
     background-color: #171717;
 }
 
+body:link
+{
+    color: #82244B;
+    text-decoration: none;
+}
+
+body:hover
+{
+    color: #D54883;
+    text-decoration: none;
+}
+
+body:visited
+{
+    color: #82244B;
+    text-decoration: none;
+}
+
 #header
 {
     text-align: center;
@@ -82,7 +100,7 @@ h1, h2, h3, h4, h5, h6
     color: #888888;
 }
 
-.download
+.button
 {
     background-color: #82244B;
     color: #202020;
@@ -94,4 +112,17 @@ h1, h2, h3, h4, h5, h6
 .download:hover
 {
     background-color: #D54883;
+}
+
+.feature-divider
+{
+    border-color: #171717;
+}
+
+.feature-spoiler
+{
+    border-style: solid;
+    border-color: #171717;
+    border-radius: 3px;
+    border-width: 1px;
 }
