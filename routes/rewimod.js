@@ -30,4 +30,9 @@ router.get('/download', function (req, res) {
     });
 });
 
+router.get('/download/:version', function (req, res) {
+    var version = req.params.version;
+    // TODO: Insert Code for RSS Reader from Jenkins @Sofaklient
+});
+
 module.exports = router;
