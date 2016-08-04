@@ -12,6 +12,11 @@
       "name": "LukvonStrom",
       "email": "lukvonstrom@web.de",
       "web": "https://lukvonstrom.de"
+    },
+    {
+      "name": "Ripes",
+      "email": "markus@kleinholding.com",
+      "web": "https://ripes.de"
     }
   ],
   "dependencies": {
