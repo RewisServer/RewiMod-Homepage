@@ -132,3 +132,31 @@ h1, h2, h3, h4, h5, h6
     border-top: 1px solid #171717;
     text-align: left;
 }
+
+.developers > thead > tr > td {
+    font-weight: bold;
+}
+
+.developers > tbody > tr:nth-child(odd) {
+    background: #303030;
+}
+
+.developers > tbody > tr > td {
+    text-align: center;
+    border: none;
+}
+
+#team > hr{
+    border: dashed 2px;
+    max-width: 90%;
+}
+
+@media only screen and (min-width: 1260px) {
+    .developers {
+        max-width: 75%;
+    }
+
+    #team > hr {
+        max-width: 80%;
+    }
+}
