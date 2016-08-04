@@ -35,4 +35,16 @@ router.get('/download/:version', function (req, res) {
     // TODO: Insert Code for RSS Reader from Jenkins @Sofaklient
 });
 
+<<<<<<< HEAD
+=======
+router.get('/join', function (req, res) {
+    fs.readFile(path.join(__dirname, '/../public/static/join.html'), 'utf8', function (err, text) {
+        if (err) {
+            throw err;
+        }
+        res.send(text);
+    });
+});
+
+>>>>>>> 86eac4f230775b2f9466a071bb02ae5b5b656395
 module.exports = router;
