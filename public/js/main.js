@@ -9,3 +9,5 @@ $('document').ready(function () {
         $('#logo').removeClass('animated pulse');
     });
 });
+
+new WOW().init();
