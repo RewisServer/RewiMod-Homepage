@@ -107,11 +107,16 @@ h1, h2, h3, h4, h5, h6
     border-style: none;
     height: 50px;
     border-radius: 3px;
+    padding: 0 15px;
 }
 
 .download:hover
 {
     background-color: #D54883;
+}
+
+.download-list {
+    margin-top: 50px;
 }
 
 .feature-divider
@@ -131,4 +136,8 @@ h1, h2, h3, h4, h5, h6
 {
     border-top: 1px solid #171717;
     text-align: left;
+}
+
+.row {
+    padding: 50px 0;
 }
